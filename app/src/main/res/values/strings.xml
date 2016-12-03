@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">PTL Asset Survey</string>
+    <string name="str_enter_your_name">Enter Your Name</string>
+    <string name="str_enter_your_phone">Enter Your Phone</string>
+    <string name="str_submit">SUBMIT</string>
+    <string name="str_start_survey">Start Survey</string>
+    <string name="str_sync_data">Sync Data</string>
+    <string name="str_next">Next</string>
+    <string name="str_save_continue">Save And Continue</string>
+    <string name="str_exit">Exit</string>
+    <string name="str_select_image">Select Image</string>
+    <string name="google_app_id">562506259981</string>
+
+    <string-array name="company_name">
+        <item>Select Company</item>
+        <item>UGVCL</item>
+        <item>PGVCL</item>
+        <item>MGVCL</item>
+        <item>DGVCL</item>
+        <item>GETCO</item>
+    </string-array>
+    <string-array name="default_arr">
+        <item>Select Item</item>
+    </string-array>
+    <string-array name="CircleItemArray">
+        <item>Select Item</item>
+        <item>Sabarmati</item>
+        <item>Mehsana</item>
+        <item>Palanpur</item>
+        <item>Himmatnagar</item>
+    </string-array>
+    <string-array name="DivisonItemArray">
+        <item>Select Item</item>
+        <item>Sabarmati</item>
+        <item>Balva</item>
+        <item>Gandhinagar</item>
+    </string-array>
+    <string-array name="SubDivisonItemArray">
+        <item>Select Item</item>
+        <item>Naroda</item>
+        <item>Barejadi</item>
+        <item>Bareja</item>
+    </string-array>
+    <string-array name="SubStationItemArray">
+        <item>Select Item</item>
+        <item>Naroda</item>
+        <item>Muthiya</item>
+    </string-array>
+    <string-array name="FeederStationItemArray">
+        <item>Select Item</item>
+        <item>Noble Nagar</item>
+        <item>Amarnath</item>
+    </string-array>
+    <string-array name="LineTypeItemArray">
+        <item>Select Item</item>
+        <item>LT</item>
+        <item>11 KV</item>
+        <item>22 KV</item>
+    </string-array>
+    <string-array name="GetcoLineTypeItemArray">
+        <item>Select Item</item>
+        <item>66 KV</item>
+    </string-array>
+
+    <string-array name="PoleTypeItemArray">
+        <item>Select Item</item>
+        <item>Type 1</item>
+        <item>Type 2</item>
+    </string-array>
+    <string-array name="khasJaruriyatArray">
+        <item>Normal</item>
+        <item>Under Ground</item>
+        <item>Bridge Crossing</item>
+        <item>River Crossing</item>
+        <item>Canal Crossing</item>
+        <item>Road Crossing</item>
+        <item>Railway Crossing</item>
+        <item>Hill</item>
+    </string-array>
+    <string-array name="getco_feeder_array">
+        <item>Feeder 1</item>
+        <item>Feeder 2</item>
+        <item>Feeder 3</item>
+        <item>Feeder 4</item>
+        <item>Feeder 5</item>
+        <item>Feeder 6</item>
+        <item>Feeder 7</item>
+        <item>Feeder 8</item>
+        <item>Feeder 9</item>
+        <item>Feeder 10</item>
+        <item>Feeder 11</item>
+        <item>Feeder 12</item>
+        <item>Feeder 13</item>
+        <item>Feeder 14</item>
+        <item>Feeder 15</item>
+    </string-array>
+    <!-- <string name="str_company">Company</string>
+     <string name="str_circle">Circle</string>
+     <string name="str_divison">Division</string>
+     <string name="str_sub_divison">Sub Division</string>
+     <string name="str_sub_station">Sub Station</string>
+     <string name="str_feeder">Feeder</string>
+     <string name="str_line_type">Line Type</string>
+     <string name="str_pole_id">Pole ID</string>
+     <string name="str_previous_pole_id">Previous Pole ID</string>
+     <string name="str_pole_type">Pole Type</string>-->
+    <string name="str_latitude">Latitude</string>
+    <string name="str_longitude">Longitude</string>
+</resources>

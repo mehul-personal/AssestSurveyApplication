@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.analytic.assestsurveyapplication.SurveyFormSecondActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txvPoleID"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp" android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtPoleId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+
+            <TextView
+                android:id="@+id/txvPreviousPoleId"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"  android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtPreviousPoleId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txvPoleType"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"  android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spnPoleType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                 />
+
+
+            <TextView
+                android:id="@+id/txvIsDivideLine"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"  android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdbYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YES" />
+
+                <RadioButton
+                    android:id="@+id/rdbNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NO" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/txvBarrier"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"  android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spnBarrier"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:entries="@array/khasJaruriyatArray" />
+
+            <TextView
+                android:id="@+id/txvIsPanchayatLastPole"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical" android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdbLastPoleYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YES" />
+
+                <RadioButton
+                    android:id="@+id/rdbLastPoleNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NO" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/txvPanchayatName"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"  android:textStyle="bold"
+                android:textColor="@color/colorPrimary" android:visibility="gone"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtPanchayatName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" android:visibility="gone"
+                android:ems="10"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/edtLatitude"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="@string/str_latitude"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edtLongitude"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="@string/str_longitude"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnSelectImage"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/str_select_image"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnSaveAndContinue"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/str_save_continue"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/str_exit"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
